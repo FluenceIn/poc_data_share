@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>FluenceIn PoC Reporting</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const param_x = urlParams.get('poc');
+
+        $.getJSON('data/' + param_x +'.json',
+            function (json) {
+
+              console.log(json);
+              console.log(json["columns"]);
+
+              var fancy_col = [];
+              for (let i = 0; i < json["columns"].length; i++) {
+                if (json["columns"][i] == "username"){
+                  fancy_col.push(
+                    {
+                      "name": json["columns"][i],
+                      formatter: (cell) => gridjs.html(`${cell}`)
+                    });
+                }else{
+                  fancy_col.push(
+                    {
+                      "name": json["columns"][i],
+                    });
+                }
+              }
+
+              new gridjs.Grid({
+                columns: fancy_col,
+                sort: true,
+                data: json["data"]
+              }).render(document.getElementById("wrapper")); 
+
+            });
+      });
+      
+    </script>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<div class="col-lg-8 mx-auto p-3 py-md-5">
+  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+      <img src="img/icon-fluencein.png" width="50px">&nbsp;&nbsp;
+      <span class="fs-4">FluenceIn PoC Örnek Hesaplar</span>
+    </a>
+  </header>
+
+  <main>
+    <h1>PoC kapsamında sizin için özel hazırladığımız hesap listesine ulaşabilirsiniz.</h1>
+    <p class="fs-5 col-md-8">Instagram üzerinden belirttiğiniz kriterler göz önüne alınarak derlenen hesaplar içinden seçmiş olduğumuz ve FluenceIn skoru ve diğer metriklere göre sıralanabilecek hesap listesine ulaşabilirsiniz.</p>
+
+    <hr class="col-3 col-md-2 mb-5">
+
+    <div class="row g-5">
+      
+      <div id="wrapper"></div>
+
+    </div>
+  </main>
+  <footer class="pt-5 my-5 text-muted border-top">
+    Created by the FluenceIn team &middot; &copy; 2023
+  </footer>
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
