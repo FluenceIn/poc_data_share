@@ -32,33 +32,16 @@
     },
     {
       "id": "number_of_posts_in_6_month",
-      "name": "İçerik sayısı (6 ay)",
+      "name": "İçerik sayısı (Son 6 ay)",
       "info": "Son 6 ayda atılmış içerik sayısı"
     },
     {
       "id": "engagement_rate_by_followers",
       "name": "Takipçi bazlı etkileşim skoru",
       "info": ""
-    },
-    {
-      "id": "engagement_rate_by_posts_of_6_month",
-      "name": "İçerik bazlı etkileşim skoru",
-      "info": ""
     }
   ],
-  "index": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10
-  ],
+  "index": [0, 1, 2, 3, 4, 5, 6, 7],
   "data": [
     [
       "<a href=\"https://www.instagram.com/melisalphan/\" target=\"_blank\">melisalphan</a>",
@@ -68,19 +51,7 @@
       3507.896,
       48.104,
       48,
-      0.008,
-      74.083
-    ],
-    [
-      "<a href=\"https://www.instagram.com/makyajmidedin/\" target=\"_blank\">makyajmidedin</a>",
-      140610,
-      1261,
-      2442,
-      0.0,
-      14.903,
-      93,
-      0.006,
-      0.16
+      0.037
     ],
     [
       "<a href=\"https://www.instagram.com/kadikoy.mag/\" target=\"_blank\">kadikoy.mag</a>",
@@ -90,30 +61,27 @@
       382.5,
       6.438,
       16,
-      0.042,
-      24.309
+      0.023
     ],
     [
       "<a href=\"https://www.instagram.com/aysegulsenerpr/\" target=\"_blank\">aysegulsenerpr</a>",
       71239,
       1570,
       3333,
-      74.0,
-      10.654,
+      364.5,
+      8.0,
       26,
-      0.012,
-      3.256
+      0.005
     ],
     [
       "<a href=\"https://www.instagram.com/aysekaynarcali/\" target=\"_blank\">aysekaynarcali</a>",
       20209,
       3816,
       4081,
-      646.062,
-      20.528,
-      36,
-      0.043,
-      18.516
+      669.467,
+      21.3,
+      34,
+      0.014
     ],
     [
       "<a href=\"https://www.instagram.com/ibrahimcicek/\" target=\"_blank\">ibrahimcicek</a>",
@@ -123,19 +91,7 @@
       811.769,
       16.154,
       13,
-      0.031,
-      63.686
-    ],
-    [
-      "<a href=\"https://www.instagram.com/pedagoganne/\" target=\"_blank\">pedagoganne</a>",
-      154712,
-      868,
-      4447,
-      1035.694,
-      34.0,
-      36,
-      0.006,
-      29.714
+      0.031
     ],
     [
       "<a href=\"https://www.instagram.com/aysunoz/\" target=\"_blank\">aysunoz</a>",
@@ -145,8 +101,7 @@
       314.429,
       6.429,
       70,
-      0.021,
-      4.584
+      0.033
     ],
     [
       "<a href=\"https://www.instagram.com/fulyakucukaksoy/\" target=\"_blank\">fulyakucukaksoy</a>",
@@ -156,30 +111,17 @@
       381.163,
       12.306,
       49,
-      0.058,
-      8.03
+      0.017
     ],
     [
       "<a href=\"https://www.instagram.com/aslimtgl/\" target=\"_blank\">aslimtgl</a>",
       5739,
       24,
       808,
-      0.0,
-      6.1,
+      52.702,
+      6.101,
       11,
-      0.0,
-      0.555
-    ],
-    [
-      "<a href=\"https://www.instagram.com/beyazyakaliyolda/\" target=\"_blank\">beyazyakaliyolda</a>",
-      6423,
-      308,
-      264,
-      0.0,
-      0.5,
-      39,
-      0.0,
-      0.013
+      0.01
     ]
   ]
 }
