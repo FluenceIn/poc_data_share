@@ -16,6 +16,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+
+      .gridjs-table{
+          min-width: 100%;
+      }
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -48,16 +53,19 @@
 
               var fancy_col = [];
               for (let i = 0; i < json["columns"].length; i++) {
-                if (json["columns"][i] == "username"){
+                if (json["columns"][i]["id"] == "username"){
                   fancy_col.push(
                     {
-                      "name": json["columns"][i],
+                      "id": json["columns"][i]["id"],
+                      "name": json["columns"][i]["name"],
                       formatter: (cell) => gridjs.html(`${cell}`)
                     });
                 }else{
                   fancy_col.push(
                     {
-                      "name": json["columns"][i],
+                      "id": json["columns"][i]["id"],
+                      "name": json["columns"][i]["name"],
+                      "width": "300px"
                     });
                 }
               }
