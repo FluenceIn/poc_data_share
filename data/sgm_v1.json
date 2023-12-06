@@ -22,12 +22,12 @@
     },
     {
       "id": "ave_likes_of_6_month",
-      "name": "Ortalama beğeni",
+      "name": "Ortalama beğeni (Son 6 ay)",
       "info": "Son 6 ayda atılmış olan postların aldığı ortalama beğeni miktarı"
     },
     {
       "id": "ave_comments_of_6_month",
-      "name": "Ortalama yorum",
+      "name": "Ortalama yorum (Son 6 ay)",
       "info": "Son 6 ayda atılmış olan postların aldığı ortalama yorum miktarı"
     },
     {
