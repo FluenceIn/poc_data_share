@@ -37,7 +37,7 @@
     },
     {
       "id": "engagement_rate_by_followers",
-      "name": "Takipçi bazlı etkileşim skoru (yüzdelik skalada)",
+      "name": "Takipçi bazlı etkileşim skoru %",
       "info": ""
     }
   ],
@@ -51,7 +51,7 @@
       3507.896,
       48.104,
       48,
-      3.719
+      3.501
     ],
     [
       "<a href=\"https://www.instagram.com/kadikoy.mag/\" target=\"_blank\">kadikoy.mag</a>",
@@ -61,7 +61,7 @@
       382.5,
       6.438,
       16,
-      2.309
+      1.878
     ],
     [
       "<a href=\"https://www.instagram.com/aysegulsenerpr/\" target=\"_blank\">aysegulsenerpr</a>",
@@ -71,7 +71,7 @@
       364.5,
       8.0,
       26,
-      1.432
+      0.522
     ],
     [
       "<a href=\"https://www.instagram.com/aysekaynarcali/\" target=\"_blank\">aysekaynarcali</a>",
@@ -81,7 +81,7 @@
       669.467,
       21.3,
       34,
-      1.408
+      3.418
     ],
     [
       "<a href=\"https://www.instagram.com/ibrahimcicek/\" target=\"_blank\">ibrahimcicek</a>",
@@ -91,17 +91,17 @@
       811.769,
       16.154,
       13,
-      3.131
+      3.007
     ],
     [
       "<a href=\"https://www.instagram.com/aysunoz/\" target=\"_blank\">aysunoz</a>",
       40104,
       1728,
       1537,
-      314.429,
-      6.429,
+      315.783,
+      6.464,
       70,
-      3.307
+      0.804
     ],
     [
       "<a href=\"https://www.instagram.com/fulyakucukaksoy/\" target=\"_blank\">fulyakucukaksoy</a>",
@@ -111,7 +111,7 @@
       381.163,
       12.306,
       49,
-      1.728
+      2.658
     ],
     [
       "<a href=\"https://www.instagram.com/dilarasengul/\" target=\"_blank\">dilarasengul</a>",
@@ -121,17 +121,17 @@
       910.155,
       10.453,
       11,
-      4.745
+      4.886
     ],
     [
       "<a href=\"https://www.instagram.com/belenllol/\" target=\"_blank\">belenllol</a>",
       30409,
       793,
       309,
-      5056.769,
-      20.692,
-      13,
-      9.294
+      5432.5,
+      22.167,
+      12,
+      17.938
     ],
     [
       "<a href=\"https://www.instagram.com/pinarrcivan/\" target=\"_blank\">pinarrcivan</a>",
@@ -151,7 +151,7 @@
       52.702,
       6.101,
       11,
-      1.121
+      1.024
     ]
   ]
 }
